@@ -1,0 +1,45 @@
+.arrowUp {
+position: fixed;
+bottom: 5px;
+left: 5px;
+line-height: 5px;
+}
+.arrowLeft {
+position: fixed;
+top: 5px;
+left: 5px;
+line-height: 5px;
+}
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-collapse: collapse;
+border: 3px double white;
+text-align: center;
+}
+th, td {
+background: #2962FF;
+}
+th, td {
+border-style: solid;
+border-width: 1px 1px 1px 1px;
+color: white;
+}
+th:first-child {
+background: #304FFE;
+}
+td:first-child {
+background: #304FFE;
+padding: 10px 20px;
+}
+th:first-child, td:first-child {
+text-align: left;
+}
+a {
+  color: #1E88E5;
+}
+h1 {
+  line-height: 60%;
+} 
+p {
+  line-height: 1.5;
